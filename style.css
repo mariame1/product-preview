@@ -1,0 +1,123 @@
+
+
+
+/* tablet version */
+ @media only screen and (min-width: 768px) and (max-width: 1300px){
+    img.img1{
+        border-top-right-radius: 10px !important;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px !important;
+        content: url('images/image-product-mobile.jpg');
+    }
+
+    .image-cart{
+        width: 5.5%;
+    }
+
+    .col-xs-12.col-sm-12.col-md-6.white{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px
+        
+    }
+     .second-row{
+        flex-direction: row;
+    }
+
+    div.row.g-0.p-5{
+        width: 200%;
+        flex-direction: column;
+    }
+
+    .text-capitalize{
+        font-size: 50px;
+    }
+
+    .text-uppercase{
+        font-size: 15px;
+        margin-top: 0px;
+        font-size: 25px;
+        
+    }
+    .main-text{
+        font-size: 32px;
+    }
+
+    .new-price{
+        font-size: 40px;
+    }
+
+    .text-decoration-line-through{
+        font-size: 24px;
+    }
+    button.btn{
+        width: 100%;
+        padding: 19px;
+        
+    }
+
+    span{
+        font-size: 25px;
+    }
+ 
+ 
+    }
+
+    img.img1{
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    /* Mobile version */
+@media only screen and (max-width: 600px) {
+    img.img1{
+        border-top-right-radius: 10px !important;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px !important;
+        content: url('images/image-product-mobile.jpg');
+    }
+
+    .col-xs-12.col-sm-12.col-md-6.white{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px
+        
+    }
+     .second-row{
+        flex-direction: row;
+    }
+
+    div.row.g-0.p-5{
+        width: 125%;
+    }
+
+    .text-capitalize{
+        font-size: 30px;
+    }
+
+    .text-uppercase{
+        font-size: 15px;
+        margin-top: 0px;
+        
+    }
+    .main-text{
+        font-size: 20px;
+    }
+
+    .new-price{
+        font-size: 30px;
+    }
+
+    .text-decoration-line-through{
+        font-size: 15px;
+    }
+    button.btn{
+        width: 100%;
+        padding: 5px;
+    } 
+ 
+}
+
+
+ 
